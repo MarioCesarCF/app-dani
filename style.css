@@ -20,3 +20,36 @@ main {
     width: 30px;
     height: 30px;
 }
+
+header  {
+    align-items: center;
+}
+
+header .top, header .botom {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    justify-content: space-around;
+    background-color: pink;
+}
+
+header .top h2, header .botom h2 {
+    padding: 0 80px;
+    font-size: 18px;
+}
+
+header .botom .meio, header .botom .meio h2 {
+    align-items: center;
+    margin: 0 auto;
+}
+
+header .botom .meio img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 0 80px;
+}
+
+header .botom img {
+    bottom: 10px;
+}
