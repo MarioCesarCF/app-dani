@@ -10,10 +10,10 @@ main {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    max-width: 430px;
-    max-height: 800px;
-    width: 430px;
-    height: 700px;
+    max-width: 400px;
+    max-height: 680px;
+    width: 400px;
+    height: 680px;
     background-color: aqua;
 }
 
@@ -35,7 +35,7 @@ header h2 {
 .top {
     display: flex;
     flex-direction: row;
-    width: 430px;
+    width: 400px;
     justify-content: space-around;
     background-color: pink;
     align-items: flex-end;
@@ -53,7 +53,7 @@ header h2 {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 400px;
+    width: 380px;
     background-color: aquamarine;
     margin: 10px auto;
    
@@ -89,7 +89,7 @@ header h2 {
 #registers {
     display: flex;
     gap: 10px;
-    max-width: 430px;
+    max-width: 380px;
 }
 
 #registers a{
@@ -102,8 +102,8 @@ header h2 {
     font-weight: 100;
     border-radius: 10px;
     margin: 10px;
-    width: 200px;
-    max-width: 200px;
+    width: 160px;
+    max-width: 160px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -115,8 +115,8 @@ header h2 {
 #registers a h2{
     background-color: rgb(189, 186, 205);
     box-shadow: 0 0;
-    width:180px;
-    max-width: 200px;
+    width:160px;
+    max-width: 160px;
 }
 
 #infos {
@@ -133,15 +133,15 @@ header h2 {
     display: flex;
     background-color: rgb(242, 234, 234);
     margin: 0px auto;
-    width: 400px;
+    width: 380px;
     justify-content: space-between;
     border-radius: 10px;
-    padding: 2px;
+    padding: 0px;
     align-items: center;
 }
 
 .mais {
-    font-size: 36px;
+    font-size: 30px;
 }
 
 footer {
@@ -151,7 +151,6 @@ footer {
     justify-content: space-around;
     position: relative;
     align-items: flex-end;
-    margin-top: 10px;
 }
 
 footer .itemFooter {
