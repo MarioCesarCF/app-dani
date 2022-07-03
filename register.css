@@ -3,18 +3,18 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    max-height: 500px;
 }
 
 main {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 380px;
     max-height: 680px;
-    width: 400px;
-    height: 680px;
-    background-color: aqua;
+    width: 380px;
+    height: 660px;
+    background-color: pink;
+    background-image: url(./assets/background.png);
 }
 
 .iconsBtn {
@@ -30,14 +30,15 @@ header  {
 
 header h2 {
     font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 0;
 }
 
 .top {
     display: flex;
     flex-direction: row;
-    width: 400px;
+    width: 380px;
     justify-content: space-around;
-    background-color: pink;
     align-items: flex-end;
 }
 
@@ -53,8 +54,7 @@ header h2 {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 380px;
-    background-color: aquamarine;
+    width: 360px;
     margin: 10px auto;
    
 }
@@ -64,7 +64,7 @@ header h2 {
     justify-content: space-evenly;
     align-items: center;
     border-radius: 20%;
-    gap: 20px;
+    gap: 15px;
 }
 
 .linha1 button {
@@ -108,12 +108,12 @@ header h2 {
     justify-content: center;
     text-align: center;
     box-shadow: 0.5px 0.5px 5px 5px rgb(136, 136, 206);
-    background-color: rgb(225, 231, 236);
+    background-color: rgb(245, 248, 251);
     padding: 5px;
 }
 
 #registers a h2{
-    background-color: rgb(189, 186, 205);
+    background-color: rgb(228, 226, 240);
     box-shadow: 0 0;
     width:160px;
     max-width: 160px;
@@ -133,7 +133,7 @@ header h2 {
     display: flex;
     background-color: rgb(242, 234, 234);
     margin: 0px auto;
-    width: 380px;
+    width: 360px;
     justify-content: space-between;
     border-radius: 10px;
     padding: 0px;
@@ -151,6 +151,7 @@ footer {
     justify-content: space-around;
     position: relative;
     align-items: flex-end;
+    margin-top: 16px;
 }
 
 footer .itemFooter {
